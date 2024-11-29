@@ -19,7 +19,8 @@
       width: 100%; height: 100%;
       vertical-align: middle;
       font-family: 'Shadows Into Light';
-      color: #111;
+      background-color: #1a1a1a; /* Dark background */
+      color: #e0e0e0; /* Light text color */
     }
 
     .wrapper {
@@ -40,6 +41,7 @@
       text-align: center;
       font-size: 100px;
       transition: all 1s ease;
+      color: #f1f1f1; /* Light color for the hearts */
     }
 
     label {
@@ -93,27 +95,26 @@
     }
 
     span {
-  display: inline-block;
-  text-align: center;
-  position: absolute;
-  bottom: -10px; /* Adjusted to move it lower */
-  left: 50%;
-  margin-left: -100px;
-  width: 200px;
-  font-size: 24px;
-  color: #999;
-}
-
+      display: inline-block;
+      text-align: center;
+      position: absolute;
+      bottom: -15px; /* Adjusted to move it lower */
+      left: 50%;
+      margin-left: -100px;
+      width: 200px;
+      font-size: 24px;
+      color: #c32a2a; /* Bright red for text */
+    }
 
     /* New "Extra Text" style */
     .extra-text {
       display: none; /* Initially hidden */
       position: absolute;
-      bottom: -50px; left: 50%;
+      bottom: -45px; left: 50%;
       margin-left: -150px;
       width: 300px;
       font-size: 20px;
-      color: #c32a2a;
+      color: #f1f1f1; /* Light text color */
       text-align: center;
     }
   </style>
